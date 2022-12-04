@@ -1,2 +1,0 @@
-# Termo-PT
-Site: 
