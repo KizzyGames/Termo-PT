@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="row center-align">
+    <h3>Pronto! Aqui está seu link.</h3>
+    <p id="link">{{ nova_url }}</p>
+    <br>
+    <button class="btn blue" onclick="copiar()">Copiar</button>
+    <button class="btn green"><a href="https://encurtador-de-url-loshad.herokuapp.com/">Voltar</a></button>
+</div>
+{% endblock %}
